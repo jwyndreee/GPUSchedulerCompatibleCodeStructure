@@ -9,11 +9,9 @@ config = {
 
     "test_config": [
         {
-            "no_debug": [True], # where your parameters(for argument parsing) should go
-            "multi_scale": [True],
-            "multi_scale_recon": [True],
-            "ms_fw_ver": [4, 5, 6],
-            "tqdm_off": [True],
+            "arg1": ["a", "b", "c"], # where your parameters(for argument parsing) should go
+            "arg2": ["d", "e", "f"],
+            "arg3": [True]
         }
     ]
 }
